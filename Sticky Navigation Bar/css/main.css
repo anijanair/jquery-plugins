@@ -40,7 +40,7 @@ ul li {
 .row {
   max-width: 1280px;
   margin: 0 auto;
-  
+
 }
 
 /*Typography*/
@@ -343,7 +343,7 @@ footer {
 }
 .header {
   background-color: white;
-  transition: 3s;
+  transition: 1s;
 }
 .is-sticky .header{
   background-color: black;
