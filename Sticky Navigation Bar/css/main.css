@@ -40,7 +40,7 @@ ul li {
 .row {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 20px;
+  
 }
 
 /*Typography*/
@@ -103,7 +103,7 @@ nav {
 nav a {
   transition: .35s linear;
   padding: 0 10px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 60px;
   color: #B1B9C1;
   text-align: right;
@@ -341,7 +341,13 @@ footer {
     font-size: 20px;
   }
 }
-
-header {
+.header {
   background-color: white;
+  transition: 3s;
+}
+.is-sticky .header{
+  background-color: black;
+}
+.is-sticky header a{
+  font-weight: bold;
 }
