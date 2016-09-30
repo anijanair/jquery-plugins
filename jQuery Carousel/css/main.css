@@ -40,6 +40,7 @@ ul li {
 .row {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0
 
 }
 
@@ -176,19 +177,6 @@ nav a.active {
 .yellow {
   background: #FFD365;
 }
-.slick-dots {
-  position: absolute;
-  width: 100%;
-  bottom: 20px;
-  left: 0;
-}
-.slick-dots li button:before {
-  font-size: 16px;
-  color: #fff;
-}
-.slick-dots li.slick-active button:before {
-  color: #fff;
-}
 
 /*Footer*/
 footer {
@@ -231,18 +219,6 @@ footer {
 .item {
   margin-bottom: 40px;
 }
-
-/*Sticky*/
-.is-sticky h5 {
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  background: #fff;
-  padding: 12px 0;
-  margin: 0;
-  opacity: .95;
-}
-
 /*Team*/
 .team {
   margin-bottom: 60px;
@@ -342,12 +318,22 @@ footer {
   }
 }
 .header {
-  background-color:#ccc;
+  background-color:white;
   transition: 1s;
 }
 .is-sticky .header{
   background-color: black;
+  z-index: 1000;
 }
-.is-sticky header a{
+.is-sticky .work{
+  background: #fff;
   font-weight: bold;
+  padding: 12px 0;
+  margin: 0;
+}
+.slick-dots {
+    bottom: 20px;
+}
+.slick-dots li button:before {
+    font-size: 16px;
 }
